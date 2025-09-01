@@ -1,6 +1,6 @@
 {
   "$schema": "https://schema.tauri.app/config/2",
-  "productName": "gitmono",
+  "productName": "monobean",
   "version": "0.1.0",
   "identifier": "com.gitmono.monobean",
   "build": {
@@ -12,7 +12,7 @@
   "app": {
     "windows": [
       {
-        "title": "gitmono",
+        "title": "Monobean",
         "width": 800,
         "height": 600
       }

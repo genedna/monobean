@@ -1,9 +1,10 @@
 import { useState } from "react";
-import reactLogo from "./assets/react.svg";
 import { invoke } from "@tauri-apps/api/core";
-import "./App.css";
 
-import { Button } from "@/components/ui/button"
+import "./App.css";
+import reactLogo from "./assets/react.svg";
+
+import { Button } from "./components/ui/button";
 
 
 function App() {
@@ -45,8 +46,8 @@ function App() {
           placeholder="Enter a name..."
         />
 
-        <div itemType="submit" className="flex min-h-svh flex-col items-center justify-center">
-          <Button>Greet</Button>
+        <div className="flex min-h-svh flex-col items-center justify-center">
+          <Button>Click me</Button>
         </div>
         
       </form>
