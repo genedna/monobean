@@ -25,3 +25,6 @@ dist-ssr
 
 # Buck2
 buck-out
+
+# Rust 
+target
